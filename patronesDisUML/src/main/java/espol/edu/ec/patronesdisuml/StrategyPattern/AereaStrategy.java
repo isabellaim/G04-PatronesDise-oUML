@@ -2,17 +2,17 @@
  * Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
  * Click nbfs://nbhost/SystemFileSystem/Templates/Classes/Class.java to edit this template
  */
-package espol.edu.ec.patronesdisenouml.StrategyPattern;
+package espol.edu.ec.patronesdisuml.StrategyPattern;
+
+import espol.edu.ec.patronesdisenouml.prueba.DistribucionStrategy;
 
 /**
  *
  * @author isabella
  */
-public class FluvialStrategy implements DistribucionStrategy {
-
+public class AereaStrategy implements DistribucionStrategy {
     @Override
     public Object distribuyeArticulos(Object parametros) {
-        throw new UnsupportedOperationException("Not supported yet."); // Generated from nbfs://nbhost/SystemFileSystem/Templates/Classes/Code/GeneratedMethodBody
+        //Logica para distribuir de manera aerea
     }
-    
 }
